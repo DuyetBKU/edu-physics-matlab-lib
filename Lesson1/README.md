@@ -1,3 +1,5 @@
+### 💻 Explanation of each command line:
+```matlab
 %Phuong trinh toa do 
 %r=x0*cos(5*t)*i +y0*cos(5*t+phi)*j
  disp('DE BAI: r=x0*cos(5*t)*i +y0*cos(5*t+phi)*j'); => disp(‘chuỗi’): lệnh xuất chuỗi ra màn hình
@@ -28,3 +30,4 @@
       ylabel('y=y0*cos(5*t+phi)'); => lệnh ghi tên cho trục tung
        axis equal; => lệnh cân bằng đồ thị
      grid on; => bật lưới đồ thị
+```
