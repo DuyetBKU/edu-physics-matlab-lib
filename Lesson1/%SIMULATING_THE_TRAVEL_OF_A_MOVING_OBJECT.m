@@ -1,3 +1,4 @@
+%SIMULATING_THE_TRAVEL_OF_A_MOVING_OBJECT
 %Phuong trinh toa do 
 %r=x0*cos(5*t)*i +y0*cos(5*t+phi)*j
  disp('DE BAI: r=x0*cos(5*t)*i +y0*cos(5*t+phi)*j');
