@@ -47,7 +47,7 @@ By contributing to this project, you're helping build an open library that:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/physics-matlab-lib.git
+   git clone https://github.com/DuyetBKU/physics-matlab-lib.git
    ```
 2. Open any `.m` file in MATLAB.
 3. Run, visualize, and tweak — enjoy learning physics through simulation!
