@@ -47,4 +47,4 @@ title('DO THI CHUYEN DONG CUA VAT');   => câu lệnh tiêu đề đồ thị
    xlabel('THOI GIAN');     => chú thích trục hoành là THOI GIAN
    ylabel('TOA DO VAT BIEN DOI THEO THOI GIAN');   => chú thích trục tung là TOA DO VAT BIEN DOI THEO THOI GIAN
   grid on      => bật lưới đồ thị
-```
+
