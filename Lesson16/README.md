@@ -38,4 +38,4 @@ hold off .   => kết thúc câu lệnh chồng đồ thị để chuyển sang 
   ylabel('Tam cao'); => chú thích cho trục tung
  axis equal;     => căn chỉnh đồ thị cho ngay ngắn (cân bằng) 
 grid on    => bật chức năng vẽ lưới đồ thị
-
+```
