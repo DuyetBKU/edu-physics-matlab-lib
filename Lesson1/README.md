@@ -30,4 +30,3 @@
       ylabel('y=y0*cos(5*t+phi)'); => lệnh ghi tên cho trục tung
        axis equal; => lệnh cân bằng đồ thị
      grid on; => bật lưới đồ thị
-```
