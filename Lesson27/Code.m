@@ -31,4 +31,3 @@ syms x y t
  pretty(subs((v(t)^2/an),t,1));
  disp('=');
  fprintf('%.3f\n',subs((v(t)^2/an),t,1)) % don vi m
-
