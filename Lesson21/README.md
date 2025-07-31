@@ -33,4 +33,3 @@ syms t x y vx vy t  => Hàm syms: Khai báo biến
   xlabel('Toa do x'); => xlabel: lệnh dán nhãn cho trục hoành
   ylabel('Toa do y'); => ylabel: lệnh dán nhãn cho trục tung
  grid on   => bật lưới đồ thị
-```
