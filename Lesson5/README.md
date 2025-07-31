@@ -26,3 +26,4 @@ title ('DO THI DIEN TRUONG') => tiêu đề
 xlabel('x');  => gắn tên trục
 ylabel('y');
 grid on; => định dạng lưới đồ thị
+
