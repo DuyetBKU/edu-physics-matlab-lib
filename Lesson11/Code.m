@@ -25,7 +25,7 @@
   disp('=> Tai thoi diem nay ten lua da ra ngoai vu tru va khong con chuyen dong');
 %Qua trinh ve do thi
   ezplot(t,y);
-   title('DO THI PHUONG TRINH CHUYEN CHUYEN DONG TEN LUA');
+   title('DO THI PHUONG TRINH CHUYEN DONG TEN LUA');
     axis equal;
     xlabel('THOI GIAN');
     ylabel('TOA DO Y THEO THOI GIAN');
