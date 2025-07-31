@@ -25,4 +25,4 @@ for i= 1:n
     disp(['FX(', num2str(i),') =', num2str(FX(i))]); => tính lực tĩnh điện theo x tại các điện tích điểm
     disp(['FY(', num2str(i),') =', num2str(FY(i))]); => tính lực tĩnh điện theo y tại các điện tích điểm
 end
-```
+
