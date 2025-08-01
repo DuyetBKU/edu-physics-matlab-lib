@@ -37,4 +37,4 @@ syms x y t
  disp('Do lon gia toc TIEP TUYEN at(1)= |dv(t)/dt|=');
  pretty(subs(at,t,1))
  disp('Do lon gia toc PHAP TUYEN an(1)= sqrt(a^2 - at^2)=');
- pretty(subs(an,t,1))
+ pretty(subs(an,t,1))  
