@@ -27,4 +27,4 @@ syms x y t => syms: lệnh khai báo biến
  disp('Ban kinh cong quy dao tai thoi diem t= 1s la: R(1)= v(1)^2/an(1)=');
  pretty(subs((v(t)^2/an),t,1)) => lệnh pretty: xuất kết quả ra màn hình
 	Lệnh subs: thay giá trị t=1 vào hàm v(t)^2/an
-
+```
