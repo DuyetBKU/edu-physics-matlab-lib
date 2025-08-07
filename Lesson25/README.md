@@ -34,3 +34,35 @@ title('Phan bo the dien ket hop mat do nang luong dien truong'); % Title: "Elect
 xlabel('x');
 ylabel('y');
 grid on
+```
+```matlab
+clc                      % Clear the command window
+clear                    % Remove all variables from the workspace
+syms x y                 % Declare symbolic variables x and y
+[x, y] = meshgrid(-10:1:10, -10:1:10);   % Create a 2D grid of x and y values ranging from -10 to 10 with step size 1
+V = input('Nhap ham dien the V(x,y)= ');   % Prompt the user to input the electric potential function V(x, y)
+[Ex, Ey] = gradient(V);       % Compute the gradient (partial derivatives) of V: dV/dx and dV/dy
+Ex = Ex * (-1);               % Electric field component Ex = -dV/dx
+Ey = Ey * (-1);               % Electric field component Ey = -dV/dy
+E = sqrt(Ex^2 + Ey^2);        % Calculate magnitude of electric field E = sqrt(Ex² + Ey²)
+u = 0.5 * 8.854E-12 * (norm(E).^2);   % Compute electric field energy density: u = ½ * ε₀ * |E|²
+disp(['Mat do nang luong dien truong']);  % Display label (in Vietnamese): "Electric field energy density"
+u                               % Output the energy density u
+E = sqrt(Ex^2 + Ey^2);        % Calculate magnitude of electric field E = sqrt(Ex² + Ey²)
+u = 0.5 * 8.854E-12 * (norm(E).^2);   % Compute electric field energy density: u = ½ * ε₀ * |E|²
+disp(['Mat do nang luong dien truong']);  % Display label (in Vietnamese): "Electric field energy density"
+u                               % Output the energy density u
+subplot(1, 2, 1);              % Prepare the first subplot (left panel)
+surfc(x, y, V);                % Plot 3D surface of electric potential with contour base
+xlabel('x');                   % x-axis label
+ylabel('y');                   % y-axis label
+zlabel('V');                   % z-axis label (Electric potential)
+title('DO THI MAT DO NANG LUONG DIEN TRUONG');  % Title: "Electric Field Energy Density Graph"
+grid on
+subplot(1, 2, 2);              % Prepare the second subplot (right panel)
+quiver(x, y, x + Ex, y + Ey);  % Draw vector field arrows representing the electric field direction
+title('DO THI MAT DO NANG LUONG DIEN TRUONG');  % Title: "Electric Field Energy Density Graph"
+xlabel('x');                   % x-axis label
+ylabel('y');                   % y-axis label
+grid on
+```
